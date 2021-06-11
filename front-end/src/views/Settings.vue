@@ -1,9 +1,20 @@
 <template>
     <div class="p-5">
-        <h1 class="inline-block text-3xl font-extrabold text-gray-300 tracking-tight">Settings</h1>
-        this is settings page
+        <route-title>Settings</route-title>
         <form action="">
             <select name=""> </select>
         </form>
     </div>
 </template>
+
+<script lang="ts">
+import { Options, Vue } from "vue-class-component";
+import RouteTitle from "@/components/RouteTitle.vue"; // @ is an alias to /src
+
+@Options({
+  components: {
+    RouteTitle,
+  },
+})
+export default class Settings extends Vue {}
+</script>
