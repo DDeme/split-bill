@@ -2377,7 +2377,7 @@ anymatch@^3.0.0, anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-apexcharts@^3.27.1:
+apexcharts@3.27.1:
   version "3.27.1"
   resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.27.1.tgz#b0e6dd3b3ace028f29b32fcd88e19a2420a18089"
   integrity sha512-2pfw3pxeWhI0ap5lfxyfGNGoGScfEwfc8XnTpbnzgRdr1AOH5JJN9hh3MvfwrC9TQQfJYC2TZc8P/q9qXUj1bQ==
@@ -10282,7 +10282,7 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass-loader@^10:
+sass-loader@10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.2.0.tgz#3d64c1590f911013b3fa48a0b22a83d5e1494716"
   integrity sha512-kUceLzC1gIHz0zNJPpqRsJyisWatGYNFRmv2CKZK2/ngMJgLqxTbXwe/hJ85luyvZkgqU3VlJ33UVF2T/0g6mw==
@@ -11847,7 +11847,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
 
-vue-apexcharts@^1.6.1:
+vue-apexcharts@1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/vue-apexcharts/-/vue-apexcharts-1.6.1.tgz#21b7febbb81cb0d13a98fd01efba0300407b5d86"
   integrity sha512-ILn3/55IvZQUgsc7+jKDjPfHfGUlcUQi/lDrLjRe5g7gfjj99o8otXoHwMeib3CBHYdQXNG9foe1vzv7RdUzXA==
@@ -11943,12 +11943,12 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue-virtual-scroll-list@^2.3.2:
+vue-virtual-scroll-list@2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/vue-virtual-scroll-list/-/vue-virtual-scroll-list-2.3.2.tgz#20dcdab58cbba4ca8b466ba1c8f318af358d647c"
   integrity sha512-afm5bYgjJRK160KXlvs03dsPixEL/gS8sV5DKxEDRjPQKMXjIBmTMN/hMTEyazsPl+G4tXQs/msYK7p7tNVogQ==
 
-vue3-apexcharts@^1.4.0:
+vue3-apexcharts@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/vue3-apexcharts/-/vue3-apexcharts-1.4.0.tgz#922b7773803277376afc4c1bccddee52460140e3"
   integrity sha512-9YyuDJTS/V0bRIuIVukIqTjzcaGf0YwZOlGTACCuSXtAjOp7/WHhvgYaP4oGY4KfbmIF+cspQw3UPSPigGJOHg==
