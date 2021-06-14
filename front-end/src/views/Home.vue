@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-  </div>
+  <container>
+    <route-title>Home</route-title>
+    <h2>Total money:</h2>
+    <display-balance :amount="totalAmount" />
+    <div class="flex justify-center">
+      <div class="w-50 text-center">
+        <radial title="Borrowed" />
+        <display-balance :amount="borrowedAmount" />
+      </div>
+      <div class="w-50 text-center">
+        <radial title="Lended" />
+        <display-balance :amount="lendedAmount" />
+      </div>
+    </div>
+  </container>
 </template>
-
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
-
+import RouteTitle from "@/components/RouteTitle.vue"; // @ is an alias to /src
+import Container from "@/components/Container.vue";
+import Radial from "@/components/charts/Radial.vue";
+import DisplayBalance from "@/components/DisplayBalance.vue";
 @Options({
   components: {
-    HelloWorld,
+    RouteTitle,
+    Container,
+    Radial,
+    DisplayBalance,
   },
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  borrowedAmount = 1000;
+  lendedAmount = 2000;
+  totalAmount = 1000 - 2000;
+}
 </script>

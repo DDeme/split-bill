@@ -5,13 +5,12 @@
     
   </div> -->
   <div>
-     <transition
-        name="fade"
-        mode="out-in"
-      >
-      <router-view />
-     </transition>
-      <Navigation />
+    <router-view v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
+    <Navigation />
   </div>
 </template>
 
@@ -55,6 +54,6 @@ export default class Home extends Vue {}
 
 .fade-enter,
 .fade-leave-active {
-  opacity: 0
+  opacity: 0;
 }
 </style>
