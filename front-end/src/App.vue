@@ -5,8 +5,13 @@
     
   </div> -->
   <div>
-    <router-view />
-    <Navigation />
+     <transition
+        name="fade"
+        mode="out-in"
+      >
+      <router-view />
+     </transition>
+      <Navigation />
   </div>
 </template>
 
@@ -40,5 +45,16 @@ export default class Home extends Vue {}
       color: #42b983;
     }
   }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 </style>
