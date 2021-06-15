@@ -45,7 +45,7 @@
     "autoprefixer": "9.8.6",
     "eslint": "7.28.0",
     "eslint-plugin-prettier": "3.4.0",
-    "eslint-plugin-vue": "7.11.0",
+    "eslint-plugin-vue": "7.11.1",
     "node-sass": "6.0.0",
     "postcss": "7.0.35",
     "prettier": "2.3.1",
