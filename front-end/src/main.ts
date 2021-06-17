@@ -16,11 +16,21 @@ import {
   faArrowRight,
   faChevronUp,
   faChevronDown,
-  faMinus
+  faMinus,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-const iconPack = [faUserSecret, faHome, faCog, faUserFriends, faChartArea,faArrowRight, faChevronUp, faChevronDown, faMinus];
+const iconPack = [
+  faUserSecret,
+  faHome,
+  faCog,
+  faUserFriends,
+  faChartArea,
+  faArrowRight,
+  faChevronUp,
+  faChevronDown,
+  faMinus,
+];
 library.add(...iconPack);
 
 createApp(App)

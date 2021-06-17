@@ -1,11 +1,10 @@
 interface Address {
   country: string;
   city: string;
-  street: string,
+  street: string;
   streetNumber: string;
-  postal: number,
+  postal: number;
 }
-
 
 export enum BalanceChange {
   POSITIVE,
@@ -13,13 +12,12 @@ export enum BalanceChange {
   NEGATIVE,
 }
 
-
 export interface IContact {
   id: string | null;
   emails: string[];
   phones: string[];
   firstName: string;
   lastName: string;
-  adressses: Address[],
-  balanceChange?: BalanceChange,
+  adressses: Address[];
+  balanceChange?: BalanceChange;
 }

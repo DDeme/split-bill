@@ -1,10 +1,12 @@
 <template>
   <card class="flex mt-5">
-    <div class="flex-grow p-5">{{contact.firstName}} {{contact.lastName}}</div>
-    <recent-change class="py-4 px-2" /> 
-    <display-balance class="p-4" :amount="balance"/> 
+    <div class="flex-grow p-5">
+      {{ contact.firstName }} {{ contact.lastName }}
+    </div>
+    <recent-change class="py-4 px-2" />
+    <display-balance class="p-4" :amount="balance" />
     <button class="px-4"><font-awesome-icon icon="arrow-right" /></button>
-    </card>
+  </card>
 </template>
 
 <script lang="ts">
@@ -24,7 +26,7 @@ import RecentChange from "@/components/RecentChange.vue";
   },
 })
 export default class PersonItem extends Vue {
-  balance = 250
+  balance = 250;
 }
 </script>
 

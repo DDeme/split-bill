@@ -1,8 +1,5 @@
 <template>
-    <header class="flex">
-
-        <div></div>
-    </header>
+  <header class="flex">
+    <div></div>
+  </header>
 </template>
-
-

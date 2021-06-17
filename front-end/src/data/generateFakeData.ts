@@ -1,10 +1,9 @@
-import { IContact } from "@/models/Contacts"
-import faker from "faker"
-import { v4 as uuidv4 } from 'uuid';
+import { IContact } from "@/models/Contacts";
+import faker from "faker";
+import { v4 as uuidv4 } from "uuid";
 
-
-export const generateContacts = (n: number = 1000): IContact[] => {
-  const fakeData: IContact[] = []
+export const generateContacts = (n = 1000): IContact[] => {
+  const fakeData: IContact[] = [];
   for (let i = 0; i < n; i++) {
     const contact: IContact = {
       id: uuidv4(),
@@ -13,10 +12,8 @@ export const generateContacts = (n: number = 1000): IContact[] => {
       lastName: faker.name.lastName(),
       phones: [faker.phone.phoneNumber()],
       adressses: [],
-    } 
-    fakeData.push(contact)
-
+    };
+    fakeData.push(contact);
   }
-  return fakeData
-}
-
+  return fakeData;
+};
