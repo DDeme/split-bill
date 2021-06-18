@@ -5,7 +5,7 @@
     </div>
     <recent-change class="py-4 px-2" />
     <display-balance class="p-4" :amount="balance" />
-    <button class="px-4"><font-awesome-icon icon="arrow-right" /></button>
+    <button class="px-4" v-on:click="openPerson"><font-awesome-icon icon="arrow-right" /></button>
   </card>
 </template>
 
@@ -14,10 +14,12 @@ import { Options, Vue } from "vue-class-component";
 import Card from "@/components/Card.vue"; // @ is an alias to /src
 import DisplayBalance from "@/components/DisplayBalance.vue";
 import RecentChange from "@/components/RecentChange.vue";
+import router from "../router/index";
+import { IContact } from "../models/Contacts";
 
 @Options({
   props: {
-    contact: Object,
+    contact: Object
   },
   components: {
     Card,
@@ -26,7 +28,15 @@ import RecentChange from "@/components/RecentChange.vue";
   },
 })
 export default class PersonItem extends Vue {
-  balance = 250;
+  contact!: IContact
+  balance = 2000
+
+  openPerson() {
+    const { id } = this.contact 
+    if (id !== null) {
+      router.push({ name: 'Person', params: { id } })
+    }
+  }
 }
 </script>
 
