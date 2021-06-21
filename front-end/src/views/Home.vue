@@ -13,6 +13,7 @@
         <display-balance :amount="lendedAmount" />
       </div>
     </div>
+    <Button class="w-full" label="Add a record"></Button>
   </container>
 </template>
 <script lang="ts">
@@ -21,11 +22,13 @@ import RouteTitle from "@/components/RouteTitle.vue"; // @ is an alias to /src
 import Container from "@/components/Container.vue";
 import Radial from "@/components/charts/Radial.vue";
 import DisplayBalance from "@/components/DisplayBalance.vue";
+import Button from "@/components/Button.vue";
 @Options({
   components: {
     RouteTitle,
     Container,
     Radial,
+    Button,
     DisplayBalance,
   },
 })

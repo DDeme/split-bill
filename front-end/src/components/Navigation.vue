@@ -1,10 +1,10 @@
 <template>
-  <nav class="fixed w-full p-5 rounded bottom-0">
+  <nav class="fixed w-full md:p-5 rounded bottom-0">
     <ul class="flex flex-row gap-4 justify-center">
       <li v-for="item in items" :key="item.title">
         <router-link :to="item.route" class="p-5 block text-center">
           <font-awesome-icon :icon="item.icon" />
-          <span class="mx-2">{{ item.title }}</span>
+          <span class="hidden md:block mx-2">{{ item.title }}</span>
         </router-link>
       </li>
     </ul>
@@ -47,6 +47,9 @@ export default class Navigation extends Vue {
 </script>
 
 <style scoped lang="scss">
+nav {
+  background-color: #282b33;
+}
 ul {
   background-color: #2f333c;
 }
