@@ -53,4 +53,7 @@ nav {
 ul {
   background-color: #2f333c;
 }
+a:hover {
+  color: #45aaf2;
+}
 </style>

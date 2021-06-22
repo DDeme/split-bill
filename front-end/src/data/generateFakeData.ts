@@ -1,4 +1,4 @@
-import { IContact } from "@/models/Contacts";
+import { IContact } from "@/models/Contact";
 import faker from "faker";
 import { v4 as uuidv4 } from "uuid";
 

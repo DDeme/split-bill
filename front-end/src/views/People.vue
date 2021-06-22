@@ -1,10 +1,6 @@
 <template>
   <div>
-    <div class="fixed header-bg w-full z-10">
-      <container>
-        <route-title>People</route-title>
-      </container>
-    </div>
+    <app-header title="People"/>
     <div class="list-container">
       <VirtualList :data="contacts" :itemSize="84" class="py-16">
         <template v-slot="{ item }">
@@ -21,13 +17,15 @@ import { VirtualList } from "vue3-virtual-list";
 import RouteTitle from "@/components/RouteTitle.vue"; // @ is an alias to /src
 import Container from "@/components/Container.vue";
 import PersonItem from "@/components/PersonItem.vue";
-import { IContact } from "../models/Contacts";
+import AppHeader from "@/components/AppHeader.vue"
+import { IContact } from "../models/Contact";
 import { generateContacts } from "../data/generateFakeData";
 @Options({
   components: {
     RouteTitle,
     Container,
     PersonItem,
+    AppHeader,
     VirtualList,
   },
 })
@@ -53,9 +51,6 @@ export default class Settings extends Vue {
 </script>
 
 <style>
-.header-bg {
-  background-color: #282b33;
-}
 .list-container {
   width: 100%;
   height: 100vh;

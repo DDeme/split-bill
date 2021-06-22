@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import { BalanceChange } from "../models/Contacts";
+import { BalanceChange } from "../models/Contact";
 @Options({
   props: {
     change: Number,
