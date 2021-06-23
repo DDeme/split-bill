@@ -12028,7 +12028,7 @@ vue3-apexcharts@1.4.0:
   resolved "https://registry.yarnpkg.com/vue3-apexcharts/-/vue3-apexcharts-1.4.0.tgz#922b7773803277376afc4c1bccddee52460140e3"
   integrity sha512-9YyuDJTS/V0bRIuIVukIqTjzcaGf0YwZOlGTACCuSXtAjOp7/WHhvgYaP4oGY4KfbmIF+cspQw3UPSPigGJOHg==
 
-vue3-tabs@^0.1.9:
+vue3-tabs@0.1.9:
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/vue3-tabs/-/vue3-tabs-0.1.9.tgz#1bd83d7787a6952371f5cb03d8e5c9e513f02c8a"
   integrity sha512-xZPkhImULNqbAYUwv8dIY9/icv+A6z2931FHA5zB8S2SPYRmp+3c9HQzCE/oDbMUb57cJM/XX4VTVz7iQe+5gQ==
