@@ -1,7 +1,7 @@
 <template>
   <header class="flex fixed header-bg w-full z-10">
     <container>
-      <route-title>{{title}}</route-title>
+      <route-title>{{ title }}</route-title>
     </container>
   </header>
 </template>
@@ -19,10 +19,7 @@ import Container from "@/components/Container.vue";
     Container,
   },
 })
-export default class AppHeader extends Vue {
-
-
-} 
+export default class AppHeader extends Vue {}
 </script>
 
 <style lang="scss" scoped>

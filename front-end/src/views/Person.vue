@@ -38,17 +38,16 @@ import { reactive, toRefs } from "vue";
   },
 })
 export default class Settings extends Vue {
-  tabs = ['Transactions', 'Info']
-  selectedTab = 'Transactions'
+  tabs = ["Transactions", "Info"];
+  selectedTab = "Transactions";
   setup() {
     const state = reactive({
-      selectedTab: this.tabs[1]
+      selectedTab: this.tabs[1],
     });
     return {
       tabs: this.tabs,
-      ...toRefs(state)
+      ...toRefs(state),
     };
   }
-
 }
 </script>

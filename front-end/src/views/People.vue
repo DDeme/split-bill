@@ -1,6 +1,6 @@
 <template>
   <div>
-    <app-header title="People"/>
+    <app-header title="People" />
     <div class="list-container">
       <VirtualList :data="contacts" :itemSize="84" class="py-16">
         <template v-slot="{ item }">
@@ -17,7 +17,7 @@ import { VirtualList } from "vue3-virtual-list";
 import RouteTitle from "@/components/RouteTitle.vue"; // @ is an alias to /src
 import Container from "@/components/Container.vue";
 import PersonItem from "@/components/PersonItem.vue";
-import AppHeader from "@/components/AppHeader.vue"
+import AppHeader from "@/components/AppHeader.vue";
 import { IContact } from "../models/Contact";
 import { generateContacts } from "../data/generateFakeData";
 @Options({
