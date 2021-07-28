@@ -12111,10 +12111,10 @@ vue-virtual-scroll-list@2.3.2:
   resolved "https://registry.yarnpkg.com/vue-virtual-scroll-list/-/vue-virtual-scroll-list-2.3.2.tgz#20dcdab58cbba4ca8b466ba1c8f318af358d647c"
   integrity sha512-afm5bYgjJRK160KXlvs03dsPixEL/gS8sV5DKxEDRjPQKMXjIBmTMN/hMTEyazsPl+G4tXQs/msYK7p7tNVogQ==
 
-vue3-apexcharts@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/vue3-apexcharts/-/vue3-apexcharts-1.4.0.tgz#922b7773803277376afc4c1bccddee52460140e3"
-  integrity sha512-9YyuDJTS/V0bRIuIVukIqTjzcaGf0YwZOlGTACCuSXtAjOp7/WHhvgYaP4oGY4KfbmIF+cspQw3UPSPigGJOHg==
+vue3-apexcharts@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/vue3-apexcharts/-/vue3-apexcharts-1.4.1.tgz#ea561308430a1c5213b7f17c44ba3c845f6c490d"
+  integrity sha512-96qP8JDqB9vwU7bkG5nVU+E0UGQn7yYQVqUUCLQMYWDuQyu2vE77H/UFZ1yI+hwzlSTBKT9BqnNG8JsFegB3eg==
 
 vue3-tabs@0.1.9:
   version "0.1.9"
