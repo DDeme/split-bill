@@ -12116,10 +12116,10 @@ vue3-apexcharts@1.4.1:
   resolved "https://registry.yarnpkg.com/vue3-apexcharts/-/vue3-apexcharts-1.4.1.tgz#ea561308430a1c5213b7f17c44ba3c845f6c490d"
   integrity sha512-96qP8JDqB9vwU7bkG5nVU+E0UGQn7yYQVqUUCLQMYWDuQyu2vE77H/UFZ1yI+hwzlSTBKT9BqnNG8JsFegB3eg==
 
-vue3-tabs@0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/vue3-tabs/-/vue3-tabs-0.1.10.tgz#ded5ce12d91e253a46761348d92aa06fa9c9fc4a"
-  integrity sha512-6idgUBffQ+MhzlRr8A4FJjbdcJMHv4GhffbdIFggb5OCM3uPOKDs9JUyehxIT39B8CI6jzFVaf+6lC+YJaE0AQ==
+vue3-tabs@0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/vue3-tabs/-/vue3-tabs-0.1.12.tgz#07c140d6fcdf7f27e15f46101afc340b1f109cba"
+  integrity sha512-21R+/iNusqlUIG78C3OLbRAq3XeRI0KBw6anF2AV0zucKeA57UD1WBAhRKncNFBDd8/f4WyX7Cdw2x4Hv2A/pg==
 
 vue3-virtual-list@1.0.2:
   version "1.0.2"
