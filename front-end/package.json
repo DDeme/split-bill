@@ -16,7 +16,7 @@
     "@tailwindcss/forms": "0.3.4",
     "@types/uuidv4": "5.0.0",
     "apexcharts": "3.28.3",
-    "core-js": "3.18.1",
+    "core-js": "3.18.2",
     "faker": "5.5.3",
     "register-service-worker": "1.7.2",
     "uuid": "8.3.2",
