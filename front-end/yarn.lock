@@ -2001,12 +2001,12 @@
   dependencies:
     eslint-config-prettier "^6.0.0"
 
-"@vue/eslint-config-typescript@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@vue/eslint-config-typescript/-/eslint-config-typescript-8.0.0.tgz#e7a5aa0cdf5f5d59e05f7ea310e8954a49b8fc41"
-  integrity sha512-8u8Qpg4qfjJoNeRMdHlxif9BcGy4iYSSK4YYW5AFPPRtkBJiCqtoyT72l4F3ZeZII09ax2N6yQeHbQ0CXQi1bA==
+"@vue/eslint-config-typescript@9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@vue/eslint-config-typescript/-/eslint-config-typescript-9.0.0.tgz#e6a46d4ffb2c82b639fe183ec734569f33b47605"
+  integrity sha512-X5inaB7c8ADWt2ygFshuT5GRw1obXWQKFR7GTvK0q+H9Cuz/BRDLXEHZTx7AxHiA5Qri1q1C1uMCPFiCBAg+6w==
   dependencies:
-    vue-eslint-parser "^7.0.0"
+    vue-eslint-parser "^8.0.0"
 
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.2"
@@ -2252,7 +2252,7 @@ acorn-globals@^4.1.0, acorn-globals@^4.3.2:
     acorn "^6.0.1"
     acorn-walk "^6.0.1"
 
-acorn-jsx@^5.2.0, acorn-jsx@^5.3.1:
+acorn-jsx@^5.3.1:
   version "5.3.1"
   resolved "https://registry.npm.taobao.org/acorn-jsx/download/acorn-jsx-5.3.1.tgz?cache=0&sync_timestamp=1599499160644&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Facorn-jsx%2Fdownload%2Facorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
   integrity sha1-/IZh4Rt6wVOcR9v+oucrOvNNJns=
@@ -4902,7 +4902,7 @@ eslint-scope@^4.0.3:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-scope@^5.0.0, eslint-scope@^5.1.1:
+eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://registry.npm.taobao.org/eslint-scope/download/eslint-scope-5.1.1.tgz?cache=0&sync_timestamp=1599933670126&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-scope%2Fdownload%2Feslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
   integrity sha1-54blmmbLkrP2wfsNUIqrF0hI9Iw=
@@ -4992,15 +4992,6 @@ eslint@7.32.0:
     table "^6.0.9"
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
-
-espree@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.npm.taobao.org/espree/download/espree-6.2.1.tgz#77fc72e1fd744a2052c20f38a5b575832e82734a"
-  integrity sha1-d/xy4f10SiBSwg84pbV1gy6Cc0o=
-  dependencies:
-    acorn "^7.1.1"
-    acorn-jsx "^5.2.0"
-    eslint-visitor-keys "^1.1.0"
 
 espree@^7.3.0, espree@^7.3.1:
   version "7.3.1"
@@ -12035,18 +12026,6 @@ vue-class-component@8.0.0-rc.1:
   version "8.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-8.0.0-rc.1.tgz#db692cd97656eb9a08206c03d0b7398cdb1d9420"
   integrity sha512-w1nMzsT/UdbDAXKqhwTmSoyuJzUXKrxLE77PCFVuC6syr8acdFDAq116xgvZh9UCuV0h+rlCtxXolr3Hi3HyPQ==
-
-vue-eslint-parser@^7.0.0:
-  version "7.6.0"
-  resolved "https://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-7.6.0.tgz#01ea1a2932f581ff244336565d712801f8f72561"
-  integrity sha1-AeoaKTL1gf8kQzZWXXEoAfj3JWE=
-  dependencies:
-    debug "^4.1.1"
-    eslint-scope "^5.0.0"
-    eslint-visitor-keys "^1.1.0"
-    espree "^6.2.1"
-    esquery "^1.4.0"
-    lodash "^4.17.15"
 
 vue-eslint-parser@^8.0.0:
   version "8.0.0"
