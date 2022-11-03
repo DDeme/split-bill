@@ -15,7 +15,7 @@
     "@fortawesome/vue-fontawesome": "3.0.1",
     "@tailwindcss/forms": "0.5.3",
     "@types/uuidv4": "5.0.0",
-    "apexcharts": "3.36.0",
+    "apexcharts": "3.36.1",
     "core-js": "3.26.0",
     "faker": "5.5.3",
     "register-service-worker": "1.7.2",
