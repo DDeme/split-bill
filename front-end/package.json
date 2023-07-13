@@ -25,7 +25,7 @@
     "vue-class-component": "8.0.0-rc.1",
     "vue-router": "4.2.4",
     "vue-virtual-scroll-list": "2.3.5",
-    "vue3-apexcharts": "1.4.1",
+    "vue3-apexcharts": "1.4.4",
     "vue3-tabs": "0.1.12",
     "vue3-virtual-list": "1.0.2",
     "vuex": "4.1.0"
