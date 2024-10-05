@@ -13,7 +13,7 @@
     "@fortawesome/fontawesome-svg-core": "6.5.1",
     "@fortawesome/free-solid-svg-icons": "6.5.1",
     "@fortawesome/vue-fontawesome": "3.0.5",
-    "@tailwindcss/forms": "0.5.7",
+    "@tailwindcss/forms": "0.5.9",
     "@types/uuidv4": "5.0.0",
     "apexcharts": "3.45.1",
     "core-js": "3.35.0",
